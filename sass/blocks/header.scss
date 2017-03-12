@@ -66,3 +66,9 @@
   height: 396px;
   background-position: bottom center;
 }
+
+@media (min-width: 700px) {
+  .header__images-hand {
+    background-position: bottom right;
+  }
+}

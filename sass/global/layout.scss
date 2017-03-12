@@ -1,6 +1,11 @@
 .page {
   margin: 0 auto;
-  min-width: 320px;
-  max-width: 320px;
+  width: 320px;
   font-family: $font;
+}
+
+@media (min-width: 700px) {
+  .page {
+    width: 700px;
+  }
 }
